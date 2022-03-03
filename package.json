@@ -1,0 +1,38 @@
+{
+	"name": "discordjs-bot-cli",
+	"description": "create a discord bot from command",
+	"version": "0.0.1",
+	"license": "CDSL",
+	"bin": {
+		"discordjs-bot-cli": "index.js",
+		"djs": "index.js"
+	},
+	"author": {
+		"name": "Timtendo12",
+		"email": "timtendo12@gmail.com",
+		"url": "https://tim-slager.newdeveloper.nl"
+	},
+	"keywords": [
+		"discordjs-bot-cli",
+		"Timtendo12"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"chalk": "^5.0.0",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^2.0.2",
+		"cli-welcome": "^2.2.2",
+		"meow": "^9.0.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.5.1"
+	}
+}
